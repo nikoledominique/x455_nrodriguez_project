@@ -2,6 +2,9 @@
 html {
   box-sizing: border-box;
 }
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=League+Spartan:wght@100..900&display=swap');
+  </style>
 *,
 *:before,
 *:after {
@@ -14,6 +17,7 @@ html {
 }
 body {
   margin: 0;
+  font-family: "League Spartan";
 }
 article,
 aside,
@@ -97,7 +101,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: League Spartan;
+  font-family: "League Spartan";
   font-size: 1em;
 }
 hr {
@@ -180,7 +184,7 @@ textarea {
 /* End extract */
 html,
 body {
-  font-family: League Spartan;
+  font-family: "League Spartan";
   font-size: 15px;
   line-height: 1.5;
 }
@@ -917,7 +921,7 @@ a {
 }
 .w3-code,
 .w3-codespan {
-  font-family: Consolas, "League Spartan";
+  font-family: "League Spartan";
   font-size: 16px;
 }
 .w3-code {
@@ -1745,7 +1749,7 @@ div.desc {
   padding: 5px;
 }
 body {
-  font-family: League Spartan;
+  font-family: "League Spartan";
   margin: 0;
 }
 
@@ -1842,12 +1846,3 @@ img {
 a {
   text-decoration: none;
 }
-.league-spartan {
-  font-family: "League Spartan", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=League+Spartan:wght@100..900&display=swap');
-  </style>
