@@ -97,7 +97,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: League Spartan;
   font-size: 1em;
 }
 hr {
@@ -180,7 +180,7 @@ textarea {
 /* End extract */
 html,
 body {
-  font-family: Verdana, sans-serif;
+  font-family: League Spartan;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -223,7 +223,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: "League Spartan";
   font-weight: 400;
   margin: 10px 0;
 }
@@ -917,7 +917,7 @@ a {
 }
 .w3-code,
 .w3-codespan {
-  font-family: Consolas, "courier new";
+  font-family: Consolas, "League Spartan";
   font-size: 16px;
 }
 .w3-code {
@@ -1842,10 +1842,7 @@ img {
 a {
   text-decoration: none;
 }
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.league-spartan-<uniquifier> {
+.league-spartan {
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
